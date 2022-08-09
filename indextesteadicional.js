@@ -1,6 +1,5 @@
-const listaDePecas = ["Retrovisor", "Parabrisa", "Pneu"]
+let listaDePecas = ["Retrovisor", "Parabrisa", "Pneu"]
 
-console.log("----------------------------------------------------------------------------------")
 console.log("------------------------------Inicio do cadastramento-----------------------------")
 console.log("----------------------------------------------------------------------------------")
 
@@ -30,10 +29,18 @@ for (let index = 0; index < listaDePecas.length; index++) {
 console.log("----------------------------------------------------------------------------------")
 
 if (pesoDaPeca > 100, capacidadeDaCaixa < 10, listaDePecas.length < 10) {
-    console.log("Peça cadastrada com sucesso")
+    console.log("Peça cadastrada com sucesso");
     listaDePecas.length++
     console.log("----------------------------------------------------------------------------------")
         console.log(listaDePecas.length, "Peças cadastradas");
 }
 
+for (let index = 0; listaDePecas.length; index++) {
+    const nomeDaPeca = listaDePecas[index];
+
+}
+        if (nomeDaPeca.length < 3) {
+         listaDePecas.push ("Parafuso");
+         console.log(listaDePecas.length, "Peças cadastradas com sucesso");
+}
 console.log("-------------------------------Fim do Cadastramento-------------------------------")

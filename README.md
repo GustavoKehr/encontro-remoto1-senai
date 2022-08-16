@@ -1,6 +1,6 @@
 🚗 Código de cadastramento de peças 🚗
 
-Linha de códigos basicos com CONST/LET IF/ELSE IF/FOR
+Linha de códigos basicos com CONST, LET, IF/ELSE, DO/WHILE, FOR
 
 🚗 Código básico para cadastramento de peças, se o peso da peça for superior a 100g permitir cadastramento, se a capacidade da caixa for => 10 dizer que não pode concluir o cadastramento pois ultrapassou o limite, se não capacidade permitida, prosseguir cadastramento, passar pelos 3 nomes das peças e verificar se há mais de 3 caracteres em cada nome, se sim permitir cadastramento, puxar para lista de peças a nova peça adicionada se a lista de peças não estiver cheia🚗
 
